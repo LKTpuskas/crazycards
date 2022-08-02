@@ -1,0 +1,35 @@
+{
+  "cards": [
+    { 
+      "id": 1, 
+      "title": "Student Life", 
+      "apr": "18.9%",
+      "balanceTransferOfferDuration": 0,
+      "purchaseOfferDuration": 6,
+      "creditAvailable": 1200,
+      "status": "student"
+     },
+     { 
+      "id": 2, 
+      "title": "Anywhere Card", 
+      "apr": "33.9%",
+      "balanceTransferOfferDuration": 0,
+      "purchaseOfferDuration": 0,
+      "creditAvailable": 300,
+      "alwaysAvailable": true
+     },
+     { 
+      "id": 3, 
+      "title": "Liquid Card", 
+      "apr": "33.9%",
+      "balanceTransferOfferDuration": 12,
+      "purchaseOfferDuration": 6,
+      "creditAvailable": 3000,
+      "annualIncome": 16000
+     }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
