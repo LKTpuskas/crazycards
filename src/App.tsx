@@ -32,12 +32,16 @@ const App = () => {
           <ResultsView availableCards={availableCards} formData={formData} />
         </>
         :
-        <Form
-          onChange={setFormData}
-          onBlur={setFormValidityData}
-          onSubmit={onSubmit}
-          formData={formData}
-          childrenToRender={DEFAULT_FORM_INPUTS} />
+        <>
+          <h1 className='text-xl w-136 mt-12 ml-12 p-12 rounded-lg border-2 border-blue-purple border-solid'>Carzy Cards</h1>
+          <Form
+            onChange={setFormData}
+            onBlur={setFormValidityData}
+            onSubmit={onSubmit}
+            formData={formData}
+            childrenToRender={DEFAULT_FORM_INPUTS} />
+        </>
+
       }
     </div>
   );

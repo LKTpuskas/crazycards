@@ -20,7 +20,7 @@ function Form({ onChange, onBlur, onSubmit, formData, childrenToRender = [] }: F
         'm:col-start-2 m:col-end-10',
         'ms:col-start-2 ms:col-end-12')}>
         <form onSubmit={(e) => onSubmit(e)} className={classnames(
-          "h-auto p-64 ms:py-64 ms:px-32 my-64 w-full",
+          "h-auto p-64 ms:py-64 ms:px-32 my-32 w-full",
           "bg-white rounded")}>
           {childrenToRender.map(({ name, inputType, stateAction, validityAction }, index) => {
             return <FormInput
