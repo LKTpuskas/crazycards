@@ -1,10 +1,7 @@
 import React from 'react'
 
-import * as ReactDOMClient from 'react-dom/client';
+import { render } from "react-dom";
 
 import App from './App'
-import './style.css';
 
-const root = ReactDOMClient.createRoot(document.getElementById("root"));
-
-root.render(<App />);
+render(<App />, document.getElementById("root"));
